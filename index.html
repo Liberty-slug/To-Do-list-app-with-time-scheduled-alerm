@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="right-head">
+                    <h2>TO-DO Scheduler</h2>
+                </div>
+                <div class="form-element">
+                    <input type="text" placeholder="Title" id="title">
+                    <div class="date-time">
+                        <input type="date" name="" id="date">
+                        <input type="time" name="" id="time">
+                    </div>
+                    <div class="media">
+                        <select name="" id="tone">
+                            <option value="">-- Select Option --</option>
+                            <option value="">Tone 1</option>
+                        </select>
+                    </div>
+                    <div class="btn">
+                        <button class="add-btn" id="add-btn">Add to list</button>
+                    </div>                    
+                </div>
+
+                <div class="design-by">
+                    <p>Designed by LibertyTech LTD 2022</p>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="left-head">
+                    <h2>TO-DO list</h2>
+                </div>
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S/N</th>
+                                <th class="todo">To Do</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            <tr>
+                               
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>

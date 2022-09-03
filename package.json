@@ -1,0 +1,16 @@
+{
+  "name": "to-do-list-app-with-time-scheduled-alerm",
+  "version": "1.0.0",
+  "description": "The to do list app is built using javascript and a time scheduled alerm is initiated",
+  "main": "newquery.js",
+  "scripts": {
+    "start": "json-server --watch ./Main/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify-fs": "^1.0.0",
+    "json-server": "^0.17.0"
+  }
+}
