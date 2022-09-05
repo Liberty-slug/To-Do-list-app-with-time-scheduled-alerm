@@ -18,23 +18,23 @@
        
     })
 
-    // const newschedule =  {
-    //     "id": 7,
-    //     "todo": "I love my life always",
-    //     "date": "28-09-2022",
-    //     "time": "12:00"
-    // };
+    const newschedule =  {
+        "id": 7,
+        "todo": "I love my life always",
+        "date": "28-09-2022",
+        "time": "12:00"
+    };
 
-    // const fs = require('fs');
+    const fs = require('fs');
 
-    // const saveData = (newschedule) => {
-    //     const finished = (error) =>{
-    //         if(error){
-    //             console.error(error)
-    //             return;
-    //         }
-    //     }
-    //     const jsonString = JSON.stringify(newschedule, null, 2);
-    //     fs.writeFile('./Main/db.json', jsonString, finished)
-    // }
-    // saveData(newschedule);
+    const saveData = (newschedule) => {
+        const finished = (error) =>{
+            if(error){
+                console.error(error)
+                return;
+            }
+        }
+        const jsonString = JSON.stringify(newschedule, null, 2);
+        fs.writeFile('./Main/db.json', jsonString, finished)
+    }
+    saveData(newschedule);
